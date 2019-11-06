@@ -1,7 +1,16 @@
 class Dog
- attr_accessible :name
- 
- def bark
-   puts "woof!"
- end
-end
+  def name=(dogs_name)
+    @name = dogs_name
+  end 
+
+  def name
+    @name
+  end 
+  
+end 
+
+class Dog
+  def bark
+    puts "woof!"
+  end 
+end 
